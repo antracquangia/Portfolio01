@@ -17,8 +17,8 @@ const projects = [
     demoUrl: 'https://spendwisean.netlify.app/',
     imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
     techStack: [
-      { category: 'Frontend', description: 'React or Next.js for building the user interface, and Tailwind CSS for styling.' },
-      { category: 'Data Visualization', description: 'Libraries like Recharts or Chart.js to create interactive charts and graphs for spending habits.' },
+      { category: 'Frontend', description: 'Next.js for building the user interface, and Tailwind CSS for styling.' },
+      { category: 'Data Visualization', description: 'Libraries such as Recharts and Chart.js to create interactive charts and graphs for spending habits.' },
       { category: 'Backend', description: 'Node.js with Express to handle user requests and business logic.' },
       { category: 'Database', description: 'PostgreSQL to securely store users, transactions, and categories.' },
       { category: 'Authentication', description: 'Implemented secure login to protect sensitive financial data.' }
@@ -38,9 +38,8 @@ const projects = [
     demoUrl: 'https://gold-price-bot-bac3.onrender.com/',
     imageUrl: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80',
     techStack: [
-      { category: 'Programming Language', description: 'Python for robust backend scripting and automation.' },
+      { category: 'Programming Language', description: 'JavaScript for robust backend scripting and automation.' },
       { category: 'Web Scraping & APIs', description: 'Requests library to pull live data from financial APIs.' },
-      { category: 'Messaging Integration', description: 'Telegram Bot API to broadcast instant alerts based on user-defined thresholds.' },
       { category: 'Task Scheduling', description: 'Automated intervals to check prices 24/7 without manual intervention.' },
       { category: 'Cloud Hosting', description: 'Deployed to a cloud provider so the bot runs continuously.' }
     ]
@@ -72,7 +71,6 @@ const skills = [
   "JavaScript / TypeScript",
   "React & Next.js",
   "Node.js & Express",
-  "Python",
   "Tailwind CSS",
   "SQL & NoSQL Databases",
   "RESTful APIs",
